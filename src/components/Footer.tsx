@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import RestaurantButton from "./Restaurent/RestaurantButton";
+// import RestaurantButton from "./Restaurent/RestaurantButton";
 
 interface FooterProps {
   dict: {
