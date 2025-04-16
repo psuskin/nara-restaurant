@@ -9,8 +9,8 @@ import StructuredData from "@/components/StructuredData";
 
 const inter = Inter({
   subsets: ["latin"],
-  display: "swap", // Optimize font loading for better performance
-  variable: "--font-inter", // Add a CSS variable
+  display: "swap", 
+  variable: "--font-inter",
 });
 
 export async function generateStaticParams() {
