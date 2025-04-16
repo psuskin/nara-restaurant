@@ -82,7 +82,7 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                     />
                   </svg>
                   <p className="text-xs sm:text-sm">
-                    {dict.address || "123 Gourmet Avenue, Hamburg"}
+                    {dict.address || "Nobistor 8, 22767 Hamburg"}
                   </p>
                 </div>
 
@@ -101,10 +101,10 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                     />
                   </svg>
                   <a
-                    href="mailto:info@nararestaurant.com"
+                    href="mailto:info@hotelambeatlesplatz.de"
                     className="text-xs sm:text-sm hover:text-primary-color transition-colors duration-200"
                   >
-                    {dict.email || "info@nararestaurant.com"}
+                    {dict.email || "info@hotelambeatlesplatz.de"}
                   </a>
                 </div>
 
@@ -126,7 +126,7 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                     href="tel:+49-123-456789"
                     className="text-xs sm:text-sm hover:text-primary-color transition-colors duration-200"
                   >
-                    {dict.phone || "+49 123 456789"}
+                    {dict.phone || "+49 40 181 283 811"}
                   </a>
                 </div>
               </div>
@@ -157,14 +157,14 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                   <p className="text-xs sm:text-sm">16:00 - 22:00</p>
                 </div>
                 <div className="h-0.5 w-full bg-white/10 my-2"></div>
-                <RestaurantButton
+                {/* <RestaurantButton
                   text={dict.reserveTable || "RESERVE A TABLE"}
                   variant="secondary"
                   size="sm"
                   withArrow={true}
                   className="inline-flex items-center text-xs sm:text-sm"
                   onClick={() => setIsReservationOpen(true)}
-                />
+                /> */}
               </div>
             </div>
 
