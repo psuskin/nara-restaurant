@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "NARA Restaurant | Japanese Fine Dining in Hamburg",
+    "description": "Experience authentic Japanese fine dining at NARA Restaurant in Hamburg. Innovative sushi, fusion cuisine and signature cocktails in an elegant atmosphere.",
+    "keywords": "Japanese restaurant Hamburg, NARA restaurant, sushi Hamburg, fine dining Hamburg, Japanese fusion cuisine, Reeperbahn restaurant",
+    "ogImageAlt": "NARA Restaurant interior in Hamburg"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Do you have questions about your upcoming booking or general questions about our hotel and restaurant? Please contact us using the contact form below or via the email address provided",
+    "hotelName": "HOTEL AM BEATLES-PLATZ",
+    "address": "Nobistor 8, 22767 Hamburg, Germany",
+    "email": "info@hotelambeatlesplatz.de",
+    "phone": "+49 40 181 283 811",
+    "companyAddressTitle": "COMPANY ADDRESS",
+    "companyName": "Polat Hotelbetriebsgesellschaft mbH",
+    "companyAddress": "Reeperbahn 117, 20359 Hamburg, Germany",
+    "experienceDescription": "Experience the magic of Hamburg from the heart of St. Pauli. Your stay at Hotel am Beatles-Platz is more than just accommodation; it's an immersion into the vibrant culture and rich history of this iconic neighborhood.",
+    "formTitle": "Contact Us",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last name",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "Email address",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "Phone number",
+    "subject": "Subject",
+    "subjectOptions": {
+      "generally": "General Inquiry",
+      "roomReservation": "Room Reservation",
+      "reportProblem": "Report a Problem",
+      "press": "Press"
+    },
+    "message": "Your Message",
+    "messagePlaceholder": "Message here",
+    "consentText": "I give my revocable consent to be contacted by Hotel am Beatles-Platz Polat Hotelbetriebsgesellschaft mbH via email. Please note our privacy policy.",
+    "successMessage": "Your message has been sent successfully!",
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "consentRequired": "Please accept the consent to proceed.",
+    "submissionError": "An error occurred while submitting the form. Please try again."
+  },
+  "navbar": {
+    "home": "HOME",
+    "restaurant": "RESTAURANT",
+    "menu": "MENU",
+    "book": "BOOK NOW"
+  },
+  "gallery": {
+    "title": "Our Hotel Gallery",
+    "description": "Explore the beauty and elegance of our hotel through our carefully curated image gallery."
+  },
+  "restaurant": {
+    "title": "RESTAURANT",
+    "subtitle": "Japanese Fine Dining on the Reeperbahn",
+    "reservationTitle": "NARA Table Reservation",
+    "description": "Experience exceptional culinary art at our NARA Restaurant",
+    "reserveTable": "Reserve a Table"
+  },
+  "bar": {
+    "title": "Bar and rooftop bar coming soon..."
+  },
+  "hotelIntroduction": {
+    "hotelName": "HOTEL AM BEATLES-PLATZ",
+    "welcome": "Welcome to Hotel am Beatles-Platz",
+    "description": "Hotel am Beatles-Platz is located in the vibrant center of Hamburg, just a few steps from the famous Reeperbahn and the harbor. With a successful combination of modern comfort and typical Hanseatic flair, our hotel offers the ideal retreat for business travelers and vacationers alike.",
+    "rooms": "53 luxurious rooms",
+    "restaurant": "Gourmet Restaurant",
+    "rooftopBar": "Rooftop Bar with a view (Coming Soon)",
+    "parking": "Nearby garage",
+    "bookNow": "Book Now"
+  },
+  "restaurantBar": {
+    "restaurantBarTitle": "HOTEL AM BEATLES-PLATZ RESTAURANT & BAR",
+    "restaurantDescription": "Our future HOTEL AM BEATLES-PLATZ restaurant will establish itself as one of the most stylish culinary highlights in Hamburg and will delight not only our hotel guests, but also gourmets from the entire region. Within the historic walls of a former iron foundry, a place is being created where the past and the modern merge in a unique way: elements such as preserved building structures and walls bear witness to the impressive history and give the restaurant a distinctive atmosphere.",
+    "kitchenTeamDescription": "Under the direction of a creative kitchen team, the restaurant offers special, unique creations of Japanese cuisine and gives sushi and sashimi a new touch. Unusual sushi creations, exquisite sashimi variations, the finest fish and meat dishes and sophisticated desserts promise an unforgettable culinary experience. Look forward to a special culinary experience in which traditional and modern influences come together harmoniously - the restaurant at HOTEL AM BEATLES-PLATZ welcomes all guests.",
+    "sushiRestaurantTitle": "SUSHI RESTAURANT",
+    "sushiRestaurantSubtitle": "IN THE HEART OF ST. PAULI",
+    "cocktailBarTitle": "COCKTAIL BAR",
+    "cocktailBarSubtitle": "UNIQUE MIXOLOGY",
+    "loungeTitle": "COZY LOUNGE",
+    "loungeSubtitle": "FOR RELAXED EVENINGS",
+    "menuButton": "MENU",
+    "drinksButton": "DRINKS",
+    "wineButton": "WINE LIST"
+  },
+  "footer": {
+    "hotelName": "Hotel am Beatles-Platz",
+    "slogan": "Modern. New. Timeless.",
+    "rooms": "Rooms",
+    "dining": "Dining",
+    "bar": "Bar",
+    "contact": "Contact",
+    "copyright": "© {year} Hotel am Beatles-Platz. All rights reserved.",
+    "impressum": "Imprint",
+    "jobs": "Jobs"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page",
+    "suggestion": "Maybe we can help you with something else?",
+    "rooms": "Our Rooms",
+    "restaurant": "Restaurant",
+    "services": "Our Services",
+    "contact": "Contact",
+    "backToHome": "Back to Home"
+  },
+  "impressum": {
+    "title": "Imprint",
+    "hotelName": "Hotel Am Beatles Platz",
+    "companyName": "Polat Hotel Management Company Ltd. Reeperbahn 117",
+    "address": "20359 Hamburg, Germany",
+    "manager": "Managing Director: Fatih Polat",
+    "registrationCourt": "Registration Court: Hamburg District Court",
+    "registrationNumber": "Registration Number: HRB",
+    "vatId": "VAT ID: DE",
+    "disclaimer": {
+      "title": "DISCLAIMER:",
+      "content": "Despite careful content control, we assume no liability for the content and the content of external links. The operators of the linked pages are solely responsible for their content. Even if we assume that the information we provide is correct, it may still contain errors or inaccuracies. The content of this website is protected by copyright. Any reproduction, distribution or public display, even of parts, is prohibited without our express consent. The mention of brand and product names as well as logos is for identification purposes only. All rights to the brand and product names mentioned on these pages, logos and images shown belong to their owners. If anyone does not agree with the mention of names or sees their copyrights violated, please contact us first by email. The corresponding content will then be removed immediately."
+    }
+  },
+  "menu": {
+    "categories": {
+      "appetizers": {
+        "title": "Appetizers & Starters",
+        "description": "Begin your culinary journey with exquisite selections like Oyster Finde de Claire (€4), Ikura Ishiso Truffle (€15), and various Edamame preparations. Featuring specialties like Black Tiger Prawn with Japanese Aji Mayo.",
+        "time": "5:00 PM - 11:00 PM",
+        "priceRange": "€4 - €21"
+      },
+      "mainDishes": {
+        "title": "Main Courses & Chef's Specials",
+        "description": "Savor our signature dishes including Sweet Spicy Dengaku Aubergine (€18), Green Kotelett with Lamb (€34), and premium selections like O-Toro Heaven with Bluefin Tuna (€42).",
+        "time": "5:00 PM - 11:00 PM",
+        "priceRange": "€18 - €42"
+      },
+      "sushi": {
+        "title": "Sushi & Sashimi",
+        "description": "Experience our premium sushi selection including Red Veil (€17), Salmon Surfer (€19), and the luxurious Opus Magnum with A5 Wagyu and 24K gold leaf (€69).",
+        "time": "5:00 PM - 11:00 PM",
+        "priceRange": "€8 - €69"
+      },
+      "drinks": {
+        "title": "Signature Cocktails & Wine",
+        "description": "Indulge in our creative cocktails like Kokonattsu Gimlet (€14.5) and Moaitai (€16), or choose from our extensive wine collection featuring premium selections like Taittinger Champagne.",
+        "time": "5:00 PM - 12:00 AM",
+        "priceRange": "€7 - €289"
+      }
+    },
+    "viewMenu": "EXPLORE MENU",
+    "menuTitle": "NARA Menu",
+    "reserveTable": "RESERVE A TABLE",
+    "reservationTitle": "Reservation",
+    "pdfViewerNotSupported": "PDF viewer not supported",
+    "downloadPdf": "DOWNLOAD MENU"
+  },
+  "restaurantIntro": {
+    "title": "RESTAURANT",
+    "subtitle": "NARA RESTAURANT",
+    "description": "With NARA, we are expanding the experience at Hotel am Beatles Platz to a new culinary dimension - Japanese Fine Dining in the heart of the Reeperbahn. Here, traditional Japanese culinary art meets modern fusion creations, served in a stylish, elegant ambiance.",
+    "experience": "Whether it's finest sushi creations, innovative fusion dishes, or artfully composed cocktails - NARA offers a unique taste experience that is open to both hotel guests and visitors alike.",
+    "highlight": "Let yourself be surprised by a culinary highlight that combines quality, craftsmanship, and unique design - while fitting perfectly into the pulsating heart of the city.",
+    "reserveTable": "RESERVE A TABLE"
+  },
+  "chatbot": {
+    "welcomeMessage": "Welcome to Hotel am Beatles-Platz! How can I help you?",
+    "placeholder": "Type your message here...",
+    "sendButton": "Send",
+    "loadingMessage": "Typing...",
+    "errorMessage": "Sorry, there was an error. Please try again.",
+    "minimizeButton": "Minimize chat",
+    "maximizeButton": "Open chat"
+  }
+}

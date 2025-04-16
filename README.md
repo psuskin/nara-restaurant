@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nara Restaurant Website
+
+A modern, responsive single-page restaurant website built with Next.js 14, TypeScript, and Tailwind CSS.
+
+## Features
+
+- Responsive design that works on all devices
+- Modern and clean UI
+- Interactive contact form
+- Smooth scroll navigation
+- Optimized images with Next.js Image component
+- SEO friendly
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Add the following images to the `public/images` directory:
+
+- hero-bg.jpg (Restaurant interior or exterior shot)
+- about.jpg (Chef preparing food)
+- sushi-platter.jpg
+- wagyu.jpg
+- black-cod.jpg
+- ramen.jpg
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+nara/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   └── components/
+│       ├── Hero.tsx
+│       ├── About.tsx
+│       ├── Menu.tsx
+│       ├── Contact.tsx
+│       └── Footer.tsx
+├── public/
+│   └── images/
+│       ├── hero-bg.jpg
+│       ├── about.jpg
+│       ├── sushi-platter.jpg
+│       ├── wagyu.jpg
+│       ├── black-cod.jpg
+│       └── ramen.jpg
+└── package.json
+```
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React Hooks
+- ESLint
+- Prettier
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The website is built using the Next.js App Router and follows modern React best practices:
 
-## Deploy on Vercel
+- Server Components by default
+- Client Components where necessary (Contact form)
+- Responsive design using Tailwind CSS
+- Semantic HTML for better accessibility
+- Optimized images using Next.js Image component
+- Smooth scroll behavior for navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT

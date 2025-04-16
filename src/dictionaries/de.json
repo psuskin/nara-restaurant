@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "home": "STARTSEITE",
+    "restaurant": "RESTAURANT",
+    "menu": "SPEISEKARTE",
+    "book": "RESERVIEREN"
+  },
+  "partner": {
+    "title": "Unsere Partner",
+    "description": "Zusammenarbeit zur Bereitstellung außergewöhnlichen Mehrwerts",
+    "kiezjungs": "Geführte Touren durch St. Pauli, Hamburgs lebendigen Stadtteil.",
+    "hamburgCard": "Touristenrabattkarte, die Ersparnisse bei Hamburger Attraktionen und öffentlichen Verkehrsmitteln bietet.",
+    "rituals": "Luxuriöse Home- und Körperkosmetik, inspiriert von alten Traditionen.",
+    "beurer": "Gesundheits- und Wohlfühlprodukte, einschließlich medizinischer Geräte und Körperpflege.",
+    "rojeeDesign": "Innovative, hochwertige digitale und Druckdesign-Dienstleistungen.",
+    "zurRitze": "Ikone der Bar und des Boxgyms im Herzen des Hamburger Stadtteils St. Pauli."
+  },
+  "gallery": {
+    "title": "Unsere Hotelgalerie",
+    "description": "Überzeugen Sie sich von unserem Hotel durch unsere sorgfältig zusammengestellte Bildergallerie."
+  },
+  "restaurant": {
+    "title": "RESTAURANT",
+    "subtitle": "Japanese Fine Dining auf der Reeperbahn",
+    "reservationTitle": "NARA Tischreservierung",
+    "description": "Erleben Sie außergewöhnliche kulinarische Kunst in unserem NARA Restaurant",
+    "reserveTable": "Tisch reservieren"
+  },
+  "hotelIntroduction": {
+    "hotelName": "HOTEL AM BEATLES-PLATZ",
+    "welcome": "Willkommen im Hotel am Beatles-Platz",
+    "description": "Das Hotel am Beatles-Platz befindet sich im pulsierenden Zentrum Hamburgs, nur wenige Schritte von der berühmten Reeperbahn und dem Hafen entfernt. Mit einer gelungenen Kombination aus modernem Komfort und typisch hanseatischem Flair bietet unser Hotel den idealen Rückzugsort für Geschäftsreisende und Urlauber gleichermaßen.",
+    "rooms": "53 luxuriöse Zimmer",
+    "restaurant": "Gourmet-Restaurant",
+    "rooftopBar": "Rooftop-Bar mit Ausblick (Coming Soon)",
+    "parking": "Garage in der Nähe",
+    "bookNow": "Jetzt buchen"
+  },
+  "atmosphere": {
+    "location": "Lage",
+    "locationValue": "20359 Hamburg – Germany",
+    "phone": "Telefon",
+    "phoneValue": "+49 40 181 283 811",
+    "localTime": "Ortszeit",
+    "currentWeather": "Aktuelles Wetter",
+    "email": "Email",
+    "emailValue": "info@hotelambeatlesplatz.de",
+    "pdf": "PDF",
+    "guestFolder": "Gästemappe",
+    "link": "Link",
+    "attractions": "Sehenswürdigkeiten",
+    "elegantAndWarm": "Modern und elegant",
+    "atmosphere": "HERZLICH WILLKOMMEN",
+    "atmosphereDescription": "Das familiengeführte Hotel bietet moderne Gemütlichkeit in stilvoll eingerichteten Zimmern. Als Familienbetrieb liegt der Fokus auf einer persönlichen Atmosphäre und individueller Betreuung, sodass ein Aufenthalt stets von Komfort und Behaglichkeit geprägt ist. Das Wohl der Gäste steht an oberster Stelle. Hier wird nicht nur Wert auf zeitgemäßen Komfort gelegt, sondern auch auf eine herzliche Gastfreundschaft, die jedem Besuch eine besondere Note verleiht und auf persönliche Wünsche und Bedürfnisse eingegangen wird.",
+    "hotelLobby": "Hotel Lobby 1",
+    "barCharlotte": "Bar Charlotte",
+    "befineSportsSpa": "Befine Sports & Spa",
+    "luxuriousRoom": "Luxuriöses Zimmer"
+  },
+  "restaurantBar": {
+    "restaurantBarTitle": "HOTEL AM BEATLES-PLATZ RESTAURANT & BAR",
+    "restaurantDescription": "Unser zukünftiges HOTEL AM BEATLES-PLATZ Restaurant wird sich als eines der stilvollsten kulinarischen Highlights Hamburgs etablieren und nicht nur unsere Hotelgäste, sondern auch Feinschmecker aus der gesamten Region begeistern. In den geschichtsträchtigen Mauern einer ehemaligen Eisengießerei entsteht ein Ort, an dem die Vergangenheit und die Moderne auf einzigartige Weise verschmelzen: Elemente wie erhaltene Bausubstanzen und Wände zeugen von der eindrucksvollen Historie und verleihen dem Restaurant eine unverwechselbare Atmosphäre.",
+    "kitchenTeamDescription": "Unter der Leitung eines kreativen Küchenteams bietet das Restaurant besondere, einzigartige Kreationen der japanischen Küche und verleiht Sushi und Sashimi eine neue Note. Ausgefallene Sushi-Kreationen, erlesene Sashimi-Variationen, feinste Fisch- und Fleischgerichte sowie raffinierte Desserts versprechen ein unvergessliches Genusserlebnis. Freuen Sie sich auf eine besondere kulinarische Erfahrung, bei der traditionelle und moderne Einflüsse harmonisch zusammenkommen - das Restaurant bei HOTEL AM BEATLES-PLATZ heißt alle Gäste herzlich willkommen.",
+    "sushiRestaurantTitle": "SUSHI-RESTAURANT",
+    "sushiRestaurantSubtitle": "IM HERZEN ST. PAULIS",
+    "cocktailBarTitle": "COCKTAIL BAR",
+    "cocktailBarSubtitle": "EINZIGARTIGE MIXOLOGIE",
+    "loungeTitle": "GEMÜTLICHE LOUNGE",
+    "loungeSubtitle": "FÜR ENTSPANNTE ABENDE",
+    "menuButton": "SPEISEKARTE",
+    "drinksButton": "GETRÄNKE",
+    "wineButton": "WEINKARTE"
+  },
+  "footer": {
+    "hotelName": "Hotel am Beatles-Platz",
+    "slogan": "Modern. Neu. Zeitlos.",
+    "rooms": "Zimmer",
+    "dining": "Restaurant",
+    "bar": "Bar",
+    "contact": "Kontakt",
+    "copyright": "© {year} Hotel am Beatles-Platz. Alle Rechte vorbehalten.",
+    "impressum": "Impressum",
+    "jobs": "Jobs"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, wir konnten die Seite",
+    "suggestion": "nicht finden. Vielleicht können wir Ihnen mit etwas anderem behilflich sein?",
+    "rooms": "Unsere Zimmer",
+    "restaurant": "Restaurant",
+    "services": "Unsere Services",
+    "contact": "Kontakt",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "hotelName": "Hotel Am Beatles Platz",
+    "companyName": "Polat Hotelbetriebsgesellschaft mbH Reeperbahn 117",
+    "address": "20359 Hamburg",
+    "manager": "Geschäftsführer: Fatih Polat",
+    "registrationCourt": "Registergericht: Amtsgericht Hamburg",
+    "registrationNumber": "Registernummer: HRB",
+    "vatId": "USt-ID: DE",
+    "disclaimer": {
+      "title": "HAFTUNGSAUSSCHLUSS:",
+      "content": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte und die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Auch wenn wir davon ausgehen, dass die von uns gegebenen Informationen zutreffend sind, können sie dennoch Fehler oder Ungenauigkeiten enthalten. Der Inhalt dieser Website unterliegt dem Schutz des Urheberrechts. Jegliche Vervielfältigung, Verbreitung oder öffentliche Wiedergabe, auch von Teilen ist ohne unsere ausdrückliche Einwilligung ist verboten. Die inhaltliche Nennung von Marken- und Produktnamen sowie Logos dient ausschließlich Identifikationszwecken. Alle Rechte an den in diesen Seiten genannten Marken- und Produktnamen, gezeigten Logos und Bildern liegen bei deren Eigentümern. Wer mit der Nennung von Namen nicht einverstanden ist oder seiner Urheberrechte verletzt sieht, möge sich bitte zunächst bei uns per Email melden. Das Entsprechende wird dann umgehend entfernt."
+    }
+  },
+  "jobsHeader": {
+    "title": "Finden Sie Ihre nächste Chance",
+    "description": "Unsere offenen Stellen und unser Team erwarten Sie"
+  },
+
+  "menu": {
+    "categories": {
+      "appetizers": {
+        "title": "Vorspeisen & Appetizer",
+        "time": "GANZTÄGIG SERVIERT",
+        "priceRange": "€8 - €24",
+        "description": "Beginnen Sie Ihre kulinarische Reise mit unserer exquisiten Auswahl an japanischen Vorspeisen. Von traditionellem Edamame bis zu unseren Signature Gyoza, jede Vorspeise ist darauf ausgerichtet, Ihren Gaumen zu verwöhnen."
+      },
+      "mainDishes": {
+        "title": "Hauptgerichte",
+        "time": "MITTAG- & ABENDESSEN",
+        "priceRange": "€18 - €45",
+        "description": "Erleben Sie das Herz der japanischen Küche mit unseren Hauptgerichten. Mit Premium Wagyu-Rindfleisch, frischen Meeresfrüchten und vegetarischen Optionen erzählt jedes Gericht eine Geschichte von Tradition und Innovation."
+      },
+      "sushi": {
+        "title": "Sushi & Sashimi",
+        "time": "GANZTÄGIG SERVIERT",
+        "priceRange": "€12 - €38",
+        "description": "Genießen Sie die Kreationen unseres Sushi-Meisters. Mit frischesten Zutaten und traditionellen Techniken bietet unsere Sushi- und Sashimi-Auswahl einen authentischen Geschmack Japans."
+      },
+      "drinks": {
+        "title": "Getränke & Cocktails",
+        "time": "AB 11:00",
+        "priceRange": "€6 - €16",
+        "description": "Vervollständigen Sie Ihr Esserlebnis mit unserer sorgfältig zusammengestellten Getränkekarte. Von Sake bis hin zu Signature-Cocktails ist jedes Getränk darauf ausgelegt, Ihre Mahlzeit perfekt zu ergänzen."
+      }
+    },
+    "viewMenu": "MENÜ ANSEHEN",
+    "menuTitle": "NARA MENÜ",
+    "reserveTable": "TISCH RESERVIEREN",
+    "reservationTitle": "Tischreservierung",
+    "pdfViewerNotSupported": "PDF-Viewer wird auf Ihrem Gerät nicht unterstützt",
+    "downloadPdf": "MENÜ HERUNTERLADEN"
+  },
+  "restaurantIntro": {
+    "title": "RESTAURANT",
+    "subtitle": "NARA RESTAURANT",
+    "description": "Mit NARA erweitern wir das Erlebnis im Hotel am Beatles Platz um eine neue kulinarische Dimension – Japanese Fine Dining mitten auf der Reeperbahn. Hier trifft traditionelle japanische Kochkunst auf moderne Fusion-Kreationen, serviert in einem stilvollen, edlen Ambiente.",
+    "experience": "Ob feinste Sushi-Kreationen, innovative Fusion Dishes oder kunstvoll komponierte Cocktails – NARA bietet ein einzigartiges Geschmackserlebnis, das für Hotelgäste und Besucher gleichermaßen offensteht.",
+    "highlight": "Lassen Sie sich von einem kulinarischen Highlight überraschen, das Qualität, Handwerkskunst und einzigartiges Design vereint – und dabei perfekt in das pulsierende Herz der Stadt passt.",
+    "reserveTable": "TISCH RESERVIEREN"
+  },
+  "chatbot": {
+    "welcomeMessage": "Willkommen beim Hotel am Beatles-Platz! Wie kann ich Ihnen helfen?",
+    "placeholder": "Schreiben Sie Ihre Nachricht hier...",
+    "sendButton": "Senden",
+    "loadingMessage": "Schreibt...",
+    "errorMessage": "Entschuldigung, es gab einen Fehler. Bitte versuchen Sie es erneut.",
+    "minimizeButton": "Chat minimieren",
+    "maximizeButton": "Chat öffnen"
+  },
+  "metadata": {
+    "title": "NARA Restaurant | Japanisches Fine Dining in Hamburg",
+    "description": "Erleben Sie authentisches japanisches Fine Dining im NARA Restaurant in Hamburg. Innovative Sushi, Fusionsküche und Signature-Cocktails in eleganter Atmosphäre.",
+    "keywords": "Japanisches Restaurant Hamburg, NARA Restaurant, Sushi Hamburg, Fine Dining Hamburg, Japanische Fusionsküche, Reeperbahn Restaurant",
+    "ogImageAlt": "NARA Restaurant Innenraum in Hamburg"
+  }
+}
