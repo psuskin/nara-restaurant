@@ -152,7 +152,7 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                 </div>
                 <div className="flex justify-between">
                   <p className="text-xs sm:text-sm">
-                    {dict.saturday || "Sa"}
+                    {dict.sunday || "Sa"}
                   </p>
                   <p className="text-xs sm:text-sm">08:00 - 02:00</p>
                 </div>
