@@ -321,7 +321,7 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                 {/* OpenTable iframe */}
                 <div className="w-full h-[calc(100%-4rem)]">
                   <iframe
-                    src="https://www.opentable.de/restref/client/?rid=373635&restref=373635&domain=de&lang=de-DE&theme=standard&color=1&iframe=true"
+                    src="https://reservation.dish.co/widget/hydra-72df81a9-a50a-4f1f-be7e-a5d26efd7b7f"
                     title="OpenTable Reservation"
                     className="w-full h-full border-0"
                   />

@@ -101,10 +101,10 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                     />
                   </svg>
                   <a
-                    href="mailto:info@hotelambeatlesplatz.de"
+                    href="mailto:info@nara-hamburg.de"
                     className="text-xs sm:text-sm hover:text-primary-color transition-colors duration-200"
                   >
-                    {dict.email || "info@hotelambeatlesplatz.de"}
+                    {dict.email || "info@nara-hamburg.de"}
                   </a>
                 </div>
 
@@ -140,21 +140,27 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
               <div className="space-y-2 text-white/60">
                 <div className="flex justify-between">
                   <p className="text-xs sm:text-sm">
-                    {dict.monday || "Monday - Thursday"}
+                    {dict.monday || "Mo - Do"}
                   </p>
-                  <p className="text-xs sm:text-sm">17:00 - 23:00</p>
+                  <p className="text-xs sm:text-sm">07:00 - 23:30</p>
                 </div>
                 <div className="flex justify-between">
                   <p className="text-xs sm:text-sm">
-                    {dict.friday || "Friday - Saturday"}
+                    {dict.friday || "Fr"}
                   </p>
-                  <p className="text-xs sm:text-sm">17:00 - 00:00</p>
+                  <p className="text-xs sm:text-sm">07:00 - 02:00</p>
                 </div>
                 <div className="flex justify-between">
                   <p className="text-xs sm:text-sm">
-                    {dict.sunday || "Sunday"}
+                    {dict.saturday || "Sa"}
                   </p>
-                  <p className="text-xs sm:text-sm">16:00 - 22:00</p>
+                  <p className="text-xs sm:text-sm">08:00 - 02:00</p>
+                </div>
+                <div className="flex justify-between">
+                  <p className="text-xs sm:text-sm">
+                    {dict.sunday || "So"}
+                  </p>
+                  <p className="text-xs sm:text-sm">08:00 - 23:30</p>
                 </div>
                 <div className="h-0.5 w-full bg-white/10 my-2"></div>
                 {/* <RestaurantButton
@@ -272,7 +278,7 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                 {/* OpenTable iframe */}
                 <div className="w-full h-[calc(100%-4rem)]">
                   <iframe
-                    src="https://www.opentable.de/restref/client/?rid=373635&restref=373635&domain=de&lang=de-DE&theme=standard&color=1&iframe=true"
+                    src="https://reservation.dish.co/widget/hydra-72df81a9-a50a-4f1f-be7e-a5d26efd7b7f"
                     title="OpenTable Reservation"
                     className="w-full h-full border-0"
                   />
