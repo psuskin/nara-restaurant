@@ -27,7 +27,7 @@ export async function generateMetadata({
 
   // Base URL for canonical and OG tags
   const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL || "https://nara-restaurant.de";
+    process.env.NEXT_PUBLIC_BASE_URL || "https://www.nara-hamburg.de";
 
   return {
     title: {

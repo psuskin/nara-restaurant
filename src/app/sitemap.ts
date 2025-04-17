@@ -2,7 +2,7 @@ import { locales } from '@/config/i18n.config';
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://nara-restaurant.de';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.nara-hamburg.de';
 
     // Base routes for each language
     const routes = locales.flatMap(locale => [

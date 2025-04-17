@@ -23,7 +23,7 @@ export default function StructuredData({
   if (!isMounted) return null;
 
   const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL || "https://nara-restaurant.de";
+    process.env.NEXT_PUBLIC_BASE_URL || "https://www.nara-hamburg.de";
 
   // Restaurant schema
   if (type === "Restaurant") {
