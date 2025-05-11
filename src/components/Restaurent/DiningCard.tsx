@@ -44,11 +44,12 @@ interface DiningCardProps {
 const DiningCard = ({ dict }: DiningCardProps) => {
   const [isPdfOpen, setIsPdfOpen] = useState(false);
   const [isReservationOpen, setIsReservationOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // Check if device is mobile - keeping this for future use if needed
+  // Check if device is mobile
   useEffect(() => {
     const checkMobile = () => {
-      // Leaving this function for future use if needed
+      setIsMobile(window.innerWidth < 768);
     };
 
     checkMobile();
@@ -58,7 +59,12 @@ const DiningCard = ({ dict }: DiningCardProps) => {
   }, []);
 
   const handleMenuClick = () => {
-    setIsPdfOpen(true);
+    if (isMobile) {
+      // For mobile, open PDF in a new tab for better viewing
+      window.open("/Speisekarte.pdf", "_blank");
+    } else {
+      setIsPdfOpen(true);
+    }
   };
 
   const menuCategories = [
@@ -191,9 +197,9 @@ const DiningCard = ({ dict }: DiningCardProps) => {
         </div>
       </section>
 
-      {/* PDF Modal */}
+      {/* PDF Modal - Only shown on desktop */}
       <AnimatePresence>
-        {isPdfOpen && (
+        {isPdfOpen && !isMobile && (
           <div className="fixed inset-0 z-[9999] overflow-hidden">
             <motion.div
               initial={{ opacity: 0 }}
@@ -260,11 +266,12 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                 </div>
 
                 {/* PDF Viewer */}
-                <div className="w-full h-[calc(100%-4rem)]">
+                <div className="w-full h-[calc(100%-4rem)] md:h-[calc(100vh-10rem)] overflow-auto">
                   <iframe
-                    src="/Speisekarte.pdf"
+                    src="/Speisekarte.pdf#view=FitH&zoom=50&toolbar=1&navpanes=1"
                     className="w-full h-full border-0"
                     title={dict.menuTitle}
+                    allowFullScreen={true}
                   />
                 </div>
               </motion.div>
@@ -319,11 +326,12 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                 </div>
 
                 {/* OpenTable iframe */}
-                <div className="w-full h-[calc(100%-4rem)]">
+                <div className="w-full h-[calc(100%-4rem)] md:h-[calc(100vh-10rem)] overflow-auto">
                   <iframe
                     src="https://reservation.dish.co/widget/hydra-72df81a9-a50a-4f1f-be7e-a5d26efd7b7f"
                     title="OpenTable Reservation"
                     className="w-full h-full border-0"
+                    allowFullScreen={true}
                   />
                 </div>
               </motion.div>
