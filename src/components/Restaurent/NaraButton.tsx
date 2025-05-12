@@ -42,7 +42,7 @@ const NaraButton = ({
         <div className="absolute inset-0 bg-secondary-color group-hover:animate-wave" />
       </div>
 
-      <style jsx global>{`
+      <style>{`
         .nara-button {
           -webkit-transform: none !important;
           transform: none !important;
