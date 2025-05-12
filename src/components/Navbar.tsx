@@ -329,20 +329,37 @@ const Navbar: React.FC<NavbarProps> = ({ dict, currentLocale }) => {
               </li>
             </ul>
 
-            <motion.div
-              className="ml-8"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+            <div className="ml-8 flex items-center space-x-3">
+              {/* Gutscheine Button */}
               <RestaurantButton
-                text={dict.book || "BOOK A TABLE"}
-                variant="primary"
+                text="Gutscheine"
+                variant="outline"
                 size="sm"
-                withArrow={true}
-                onClick={handleReservationClick}
+                onClick={() =>
+                  window.open(
+                    "https://www.yovite.com/Restaurant-Gutschein-R-69778946.html?REF=REST",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                }
                 className="inline-flex items-center"
               />
-            </motion.div>
+
+              {/* Book a Table Button */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <RestaurantButton
+                  text={dict.book || "BOOK A TABLE"}
+                  variant="primary"
+                  size="sm"
+                  withArrow={true}
+                  onClick={handleReservationClick}
+                  className="inline-flex items-center"
+                />
+              </motion.div>
+            </div>
           </div>
 
           {/* Hamburger Menu Button */}
@@ -428,8 +445,22 @@ const Navbar: React.FC<NavbarProps> = ({ dict, currentLocale }) => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.2, delay: 0.1 }}
-                    className="pt-4 text-center"
+                    className="pt-4 text-center flex flex-col items-center space-y-4"
                   >
+                    {/* Gutscheine Button - Mobile */}
+                    <RestaurantButton
+                      text="Gutscheine"
+                      variant="outline"
+                      size="md"
+                      onClick={() =>
+                        window.open(
+                          "https://www.yovite.com/Restaurant-Gutschein-R-69778946.html?REF=REST",
+                          "_blank",
+                          "noopener,noreferrer"
+                        )
+                      }
+                    />
+
                     <RestaurantButton
                       text={dict.book}
                       variant="primary"
