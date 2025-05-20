@@ -126,7 +126,7 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                     href="tel:+49-123-456789"
                     className="text-xs sm:text-sm hover:text-primary-color transition-colors duration-200"
                   >
-                    {dict.phone || "+49 40 181 283 811"}
+                    {dict.phone || "+49 40 181 283 833"}
                   </a>
                 </div>
               </div>

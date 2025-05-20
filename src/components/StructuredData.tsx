@@ -37,7 +37,7 @@ export default function StructuredData({
         `${baseUrl}/images/restaurant-interior.jpg`,
       ],
       url: `${baseUrl}/${lang}`,
-      telephone: "+49 40 181 283 811",
+      telephone: "+49 40 181 283 833",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Nobistor 8",
@@ -102,7 +102,7 @@ export default function StructuredData({
       name: "Hotel am Beatles-Platz",
       image: `${baseUrl}/images/hotel-exterior.jpg`,
       url: `${baseUrl}/${lang}`,
-      telephone: "+49 40 181 283 811",
+      telephone: "+49 40 181 283 833",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Nobistor 8",
