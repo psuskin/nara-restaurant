@@ -42,7 +42,7 @@ interface DiningCardProps {
 }
 
 const DiningCard = ({ dict }: DiningCardProps) => {
-  const [isPdfOpen, setIsPdfOpen] = useState(false);
+  // const [isPdfOpen, setIsPdfOpen] = useState(false);
   const [isReservationOpen, setIsReservationOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [pdfToShow, setPdfToShow] = useState<string | null>(null);
