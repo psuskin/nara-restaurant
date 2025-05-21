@@ -45,6 +45,7 @@ const DiningCard = ({ dict }: DiningCardProps) => {
   const [isPdfOpen, setIsPdfOpen] = useState(false);
   const [isReservationOpen, setIsReservationOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [pdfToShow, setPdfToShow] = useState<string | null>(null);
 
   // Check if device is mobile
   useEffect(() => {
@@ -60,10 +61,17 @@ const DiningCard = ({ dict }: DiningCardProps) => {
 
   const handleMenuClick = () => {
     if (isMobile) {
-      // For mobile, open PDF in a new tab for better viewing
       window.open("/Speisekarte.pdf", "_blank");
     } else {
-      setIsPdfOpen(true);
+      setPdfToShow("/Speisekarte.pdf");
+    }
+  };
+
+  const handleDrinkMenuClick = () => {
+    if (isMobile) {
+      window.open("/Cocktailkarte.pdf", "_blank");
+    } else {
+      setPdfToShow("/Cocktailkarte.pdf");
     }
   };
 
@@ -180,7 +188,11 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                       variant="outline"
                       size="sm"
                       className="inline-flex items-center gap-2"
-                      onClick={handleMenuClick}
+                      onClick={
+                        category.key === "drinks"
+                            ? handleDrinkMenuClick
+                            : handleMenuClick
+                      }
                     />
                     <RestaurantButton
                       text={dict.reserveTable}
@@ -199,14 +211,14 @@ const DiningCard = ({ dict }: DiningCardProps) => {
 
       {/* PDF Modal - Only shown on desktop */}
       <AnimatePresence>
-        {isPdfOpen && !isMobile && (
+        {pdfToShow && !isMobile && (
           <div className="fixed inset-0 z-[9999] overflow-hidden">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               className="fixed inset-0 bg-black/75 backdrop-blur-sm"
-              onClick={() => setIsPdfOpen(false)}
+              onClick={() => setPdfToShow(null)}
             />
             <div className="fixed inset-0 flex items-center justify-center">
               <motion.div
@@ -224,7 +236,7 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                   </h2>
                   <div className="flex items-center gap-4">
                     <a
-                      href="/Speisekarte.pdf"
+                      href={pdfToShow}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white hover:text-white/80 transition-colors duration-200 hover:bg-primary-color/40 p-2 rounded-full"
@@ -245,7 +257,7 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                       </svg>
                     </a>
                     <button
-                      onClick={() => setIsPdfOpen(false)}
+                      onClick={() => setPdfToShow(null)}
                       className="text-white hover:text-white/80 transition-colors duration-200 hover:bg-red-800/40 p-2 rounded-full"
                     >
                       <svg
@@ -268,7 +280,7 @@ const DiningCard = ({ dict }: DiningCardProps) => {
                 {/* PDF Viewer */}
                 <div className="w-full h-[calc(100%-4rem)] md:h-[calc(100vh-10rem)] overflow-auto">
                   <iframe
-                    src="/Speisekarte.pdf#view=FitH&zoom=50&toolbar=1&navpanes=1"
+                    src={`${pdfToShow}#view=FitH&zoom=50&toolbar=1&navpanes=1`}
                     className="w-full h-full border-0"
                     title={dict.menuTitle}
                     allowFullScreen={true}
