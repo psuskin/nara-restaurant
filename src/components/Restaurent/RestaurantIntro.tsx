@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import RestaurantButton from "./RestaurantButton";
 
@@ -16,14 +16,7 @@ interface RestaurantIntroProps {
 }
 
 const RestaurantIntro = ({ dict }: RestaurantIntroProps) => {
-  const scrollToMenu = () => {
-    const menuSection = document.getElementById("nara-menu");
-    if (menuSection) {
-      menuSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const [isOpen, setIsOpen] = useState(false);
+  const [, setIsOpen] = useState(false);
   const [isReservationOpen, setIsReservationOpen] = useState(false);
 
   const closeMenu = () => setIsOpen(false);
