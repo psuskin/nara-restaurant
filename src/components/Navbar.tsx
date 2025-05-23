@@ -269,7 +269,7 @@ const Navbar: React.FC<NavbarProps> = ({ dict, currentLocale }) => {
   };
 
   const navItems = [
-    { name: dict.home, href: "#home" },
+    { name: dict.home, href: "/#home" },
     { name: dict.restaurant, href: "#restaurant" },
     { name: dict.menu, href: "#menu" },
   ];
@@ -290,7 +290,7 @@ const Navbar: React.FC<NavbarProps> = ({ dict, currentLocale }) => {
         <div className="container mx-auto px-6 flex justify-between items-center">
           {/* Logo */}
           <motion.a
-            href="#home"
+            href="/#home"
             className="relative group"
             onClick={closeMenu}
             whileHover={{ scale: 1.03 }}

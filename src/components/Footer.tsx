@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 // import RestaurantButton from "./Restaurent/RestaurantButton";
 
 interface FooterProps {
@@ -218,11 +219,20 @@ const Footer: React.FC<FooterProps> = ({ dict }) => {
                 </a>
               </div>
 
+                <div className="mb-3">
+                <Link
+                  href={`/${(typeof window !== "undefined" ? window.location.pathname.split("/")[1] : "en")}/impressum`}
+                  className="text-xs sm:text-sm text-white/60 hover:text-primary-color transition-colors duration-200"
+                >
+                  {"Impressum"}
+                </Link>
+                </div>
+
               <div className="text-white/40 text-xs">
-                <p>{dict.hotelName || "Hotel am Beatles-Platz"}</p>
+                <p>{dict.hotelName || "Nara Gastro GmbH"}</p>
                 <p>
                   {dict.copyright?.replace("{year}", currentYear.toString()) ||
-                    `© ${currentYear} Hotel am Beatles-Platz. All rights reserved.`}
+                    `© ${currentYear} Nara Gastro GmbH. All rights reserved.`}
                 </p>
               </div>
             </div>
