@@ -61,9 +61,9 @@ const DiningCard = ({ dict }: DiningCardProps) => {
 
   const handleMenuClick = () => {
     if (isMobile) {
-      window.open("/Speisekarte.pdf", "_blank");
+      window.open("/Speisekarte_neu.pdf", "_blank");
     } else {
-      setPdfToShow("/Speisekarte.pdf");
+      setPdfToShow("/Speisekarte_neu.pdf");
     }
   };
 
